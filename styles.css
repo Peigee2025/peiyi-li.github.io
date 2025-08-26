@@ -16,9 +16,12 @@ header {
 }
 
 .intro {
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+  max-width: 700px;
 }
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
@@ -142,5 +145,35 @@ details{
   font-weight: bold;
 }
 
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  header, main {
+    margin: 0.5rem;
+    padding: 1rem;
+  }
+
+  .intro {
+    margin: 0;
+    padding: 0 1rem;
+  }
+
+  .skills-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills-grid .card1,
+  .skills-grid .card2 {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .timeline-item {
+    margin-bottom: 2rem;
+  }
+}
 
 
