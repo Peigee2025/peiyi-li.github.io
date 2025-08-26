@@ -1,0 +1,146 @@
+header {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+#logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2rem;
+  font-style: italic;
+  color: #4F7BFF;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+.intro {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  background: #D1EBE9;
+  background: -moz-linear-gradient(left, #D1EBE9 0%, #EDEDED 50%, #D1EBE9 100%);
+  background: -webkit-linear-gradient(left, #D1EBE9 0%, #EDEDED 50%, #D1EBE9 100%);
+  background: linear-gradient(to right, #D1EBE9 0%, #EDEDED 50%, #D1EBE9 100%);
+
+
+}
+.extra-info {
+  margin-top: 100px;
+}
+a {
+  color: #4F7BFF;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+
+a:hover {
+  color: #0033cc;
+  text-decoration: underline;
+}
+
+article p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  color: #404040;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  border-left: 10px solid #4F7BFF;
+  padding-left: 10px;
+}
+
+.profile-pic {
+  max-width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+main {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+}
+
+details{
+  margin-top: 20px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.skills-grid .card1 {
+  font-style: italic;
+  color: #fff;
+  background: linear-gradient(135deg, #4F7BFF 0%, #00C9FF 100%);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 1rem;
+  width: 250px;
+  text-align: center;
+
+}.skills-grid .card2 {
+  background: linear-gradient(135deg, #FF9A8B 0%, #FF6A88 50%, #FF99AC 100%);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 1rem;
+  width: 250px;
+  text-align: center;
+}.timeline {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 1rem;
+  position: relative;
+  padding-left: 20px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(to bottom, #82aaff, #ff85b3);
+  border-radius: 2px;
+}
+
+.timeline-item {
+  margin: 1rem 0;
+  padding-left: -10px;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.timeline-item::before {
+  content: "___";
+  position: absolute;
+  left: -30px;
+  color: #4F7BFF;
+  font-weight: bold;
+}
+
+
+

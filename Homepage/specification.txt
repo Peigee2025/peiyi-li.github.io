@@ -1,0 +1,27 @@
+10 html tags i have used:
+
+div
+section
+p
+title
+header
+main
+article
+nav
+small
+footer
+
+5 css properties i have used:
+
+background-color
+padding
+border-radius
+box-shadow
+max-width
+
+JavaScript and Bootstrap:
+Used Bootstrap to consistent base styling across devices.
+Used JavaScript to create a typewriter effect when expanding a <details> element on the projects page.
+
+
+
